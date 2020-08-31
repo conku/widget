@@ -5,12 +5,12 @@ import (
 	"html/template"
 	"time"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
+	"github.com/conku/serializable_meta"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/serializable_meta"
 )
 
 // QorWidgetSettingInterface qor widget setting interface

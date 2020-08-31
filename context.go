@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"reflect"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor/utils"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/utils"
 )
 
 // Context widget context

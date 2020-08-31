@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor/test/utils"
+	"github.com/conku/widget"
 	"github.com/fatih/color"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/test/utils"
-	"github.com/qor/widget"
 )
 
 var db *gorm.DB
@@ -44,7 +44,7 @@ func setup() {
 	Widgets = widget.New(&widget.Config{
 		DB: db,
 	})
-	Widgets.RegisterViewPath("github.com/qor/widget/test")
+	Widgets.RegisterViewPath("github.com/conku/widget/test")
 
 	Admin = admin.New(&qor.Config{DB: db})
 	Admin.AddResource(Widgets)

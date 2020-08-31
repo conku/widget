@@ -4,9 +4,9 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/responder"
-	"github.com/qor/serializable_meta"
+	"github.com/conku/admin"
+	"github.com/conku/responder"
+	"github.com/conku/serializable_meta"
 )
 
 type widgetController struct {
