@@ -10,11 +10,11 @@ import (
 	"testing"
 
 	"github.com/conku/admin"
+	"github.com/conku/gorm"
 	"github.com/conku/qor"
 	"github.com/conku/qor/test/utils"
 	"github.com/conku/widget"
 	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
 )
 
 var db *gorm.DB

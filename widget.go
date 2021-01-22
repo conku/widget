@@ -8,10 +8,10 @@ import (
 
 	"github.com/conku/admin"
 	"github.com/conku/assetfs"
+	"github.com/conku/gorm"
 	"github.com/conku/qor/resource"
 	"github.com/conku/qor/utils"
 	"github.com/conku/roles"
-	"github.com/jinzhu/gorm"
 )
 
 var (

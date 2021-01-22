@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/conku/admin"
+	"github.com/conku/gorm"
 	"github.com/conku/qor"
 	"github.com/conku/qor/resource"
 	"github.com/conku/qor/utils"
 	"github.com/conku/serializable_meta"
-	"github.com/jinzhu/gorm"
 )
 
 // QorWidgetSettingInterface qor widget setting interface
