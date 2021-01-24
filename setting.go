@@ -3,7 +3,6 @@ package widget
 import (
 	"fmt"
 	"html/template"
-	"time"
 
 	"github.com/conku/admin"
 	"github.com/conku/gorm"
@@ -44,8 +43,8 @@ type QorWidgetSetting struct {
 	GroupName   string
 	Template    string
 	serializable_meta.SerializableMeta
-	CreatedAt time.Time
-	UpdatedAt time.Time
+	CreatedAt int64
+	UpdatedAt int64
 }
 
 // ResourceName get widget setting's resource name
